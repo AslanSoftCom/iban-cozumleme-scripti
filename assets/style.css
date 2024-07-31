@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.result-card {
+    background-color: #e9ecef;
+    border: none;
+    margin-top: 20px;
+}
+.result-card p {
+    margin-bottom: 10px;
+}
+.iban-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.iban-form {
+    flex: 1;
+    margin-left: 20px;
+}
+.iban-info {
+    flex: 1;
+    margin-right: 20px;
+}
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
